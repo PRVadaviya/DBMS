@@ -217,7 +217,15 @@ VALUES
     (1007, 4, '2024-01-15', '09:00:00', '12:00:00');
     
     
-    
+    select  employee_id , f_name , l_name from employee where f_name like 'j%' ;
+
+select * from parking where p_address is NOT NULL ;
+
+SELECT CUSTOMER_ID , F_NAME , L_NAME , AGE FROM CUSTOMER ORDER BY AGE DESC ;
+
+SELECT * FROM parking WHERE ANNUAL_INCOME BETWEEN 10000 AND 80000 ;
+
+SELECT * FROM PARKING_BLOCK WHERE CAPACITY IN (50,80,100) ;
     
     
     
